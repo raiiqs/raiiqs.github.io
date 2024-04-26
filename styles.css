@@ -1,8 +1,40 @@
-.font 
-{
+body {
   font-family: "JetBrains Mono", monospace;
-  color: #ffffff;
   font-optical-sizing: auto;
-  font-weight: 5;
+  font-weight: 300;
+  font-size: clamp(1vw, 1rem, 2vw);
   font-style: normal;
+  text-align: left;
+  background-color: rgb(19, 24, 24);
+  color: aliceblue;
+  background-image: "bg.png";
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
+ul {
+    list-style-type: none;
+}
+
+.manga-panel {
+  height: 150px;
+  width: 150px;
+  position: absolute; 
+  top: 5vh;
+  margin-top: 5%;
+  size: 1vh; 
+  right: 15vw;
+  display: block;
+} 
+
+.main-content {
+  border: 5px solid black;
+  margin: auto;
+  margin-top: 5%;
+  padding: 1vh;
+  width: 50%;
+  height: 75vh; 
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: rgb(71, 60, 107);
+}
+
