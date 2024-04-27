@@ -15,6 +15,13 @@ ul {
     list-style-type: none;
 }
 
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
 .main-content {
   border: 5px solid black;
   margin: auto;
