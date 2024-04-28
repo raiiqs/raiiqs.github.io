@@ -38,20 +38,8 @@ ul {
   border-style: double;
 }
 
-.buttonbar {
-  background-color: antiquewhite;
-  width: 42.5vw;
-  height: 3vw;
-  box-sizing: border-box;
-  border-style: double;
-  margin-top: -3vw;
-  margin-left: 28.1vw
-  
-}
 
-.buttonbar-content {
 
-}
 
 .toprightbox {
   margin-top: -16.66vw;
