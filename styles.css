@@ -1,88 +1,97 @@
+@font-face {
+  font-family: 'MS Gothic';
+  src: url('MS Gothic.ttf') format('truetype');
+}
+
 body {
-  font-family: "courier", sans-serif;  
-  font-size: 8;
-  text-align: left;
-  background-color: #181318;
-  color: rgb(0, 0, 0);
-  overflow-y: hidden;
-  overflow-x: hidden;
-  letter-spacing: 0.5px;
-  background-image: linear-gradient(45deg, #201820 25%, transparent 25%), linear-gradient(-45deg, #201820 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #201820 75%), linear-gradient(-45deg, transparent 75%, #201820 75%);
-  background-size: 20px 20px;
-  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+font-family: "MS Gothic", sans-serif;
+font-size: 8;
+text-align: left;
+background-color: #181318;
+color: rgb(0, 0, 0);
+overflow-y: hidden;
+overflow-x: hidden;
+letter-spacing: 0.5px;
+background-image: linear-gradient(45deg, #201820 25%, transparent 25%), linear-gradient(-45deg, #201820 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #201820 75%), linear-gradient(-45deg, transparent 75%, #201820 75%);
+background-size: 20px 20px;
+background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .main {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 42.5vw;
-  flex-wrap: wrap;
-  flex-direction: row;
-  height: 49.3vw;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 42.5vw;
+flex-wrap: wrap;
+flex-direction: row;
+height: 49.3vw;
 }
 
 .leftbox {
-  display: flex;
-  background-color: antiquewhite;
-  width: 28vw;
-  margin-top: -1.5%;
-  height: 45vw;
-  padding: 1rem;
-  box-sizing: border-box;
-  border-style: double;
+display: flex;
+background-color: antiquewhite;
+width: 28vw;
+margin-top: -1.5%;
+height: 45vw;
+padding: 1rem;
+box-sizing: border-box;
+border-style: double;
 }
 
-
-
-
 .toprightbox {
-  margin-top: -16.66vw;
-  display: flex;
-  background-color: antiquewhite;
-  width: 14vw;
-  flex-wrap: wrap;
-  height: 29vw;
-  padding: 1rem;
-  box-sizing: border-box;
-  border-style: double;
+margin-top: -16.66vw;
+display: flex;
+background-color: antiquewhite;
+width: 14vw;
+flex-wrap: wrap;
+height: 29vw;
+padding: 1rem;
+box-sizing: border-box;
+overflow-y: auto;
+border-style: double;
 }
 
 .bottomrightbox {
-  display: flex;
-  background-color: antiquewhite;
-  width: 14vw;
-  flex-wrap: wrap;
-  height: 15.5vw;
-  margin-left: auto; 
-  padding: 1rem;
-  box-sizing: border-box;
-  border-style: double;
-  margin-top: -20.5vw; /* Move the bottom right box to the bottom */
+display: flex;
+background-color: antiquewhite;
+width: 14vw;
+flex-wrap: wrap;
+height: 15.5vw;
+overflow-y: auto;
+margin-left: auto; 
+padding: 1rem;
+box-sizing: border-box;
+border-style: double;
+margin-top: -20.5vw; /* Move the bottom right box to the bottom */
 }
 
 .bottomrightcontent{
-  overflow-y: auto;
+overflow-y: auto;
+flex-wrap: wrap
 
 
 
 }
 
 .toprightcontent {
-  display: flow;
-  overflow-y: auto;
+display: flow;
+overflow-y: auto;
+flex-wrap: wrap
 
 
 
 }
 
 .leftcontent {
-  overflow-y: auto;
-  
+overflow-y: auto;
+flex-wrap: wrap;
+overflow-y: auto;
+
+
 }
 
